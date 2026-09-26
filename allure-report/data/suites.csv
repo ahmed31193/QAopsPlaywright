@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","2","Screen shots and visual comparasions","","2026-09-22","skipped","2026-09-22","","MoreValidations.spec.js","",""
-"","6","visual","","2026-09-22","skipped","2026-09-22","","MoreValidations.spec.js","",""
-"","14854","Client app login for iphone 13 pro","","2026-09-22","passed","2026-09-22","","ClientappPOM.spec.js","",""
-"","16409","Client app login for ZARA COAT 3","","2026-09-22","passed","2026-09-22","","ClientappPOM.spec.js","",""
-"","9340","@web Popup validations","","2026-09-22","failed","2026-09-22","","MoreValidations.spec.js","",""
