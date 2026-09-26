@@ -36,7 +36,7 @@ test('Page Loign', async ({page}) => {
 
 })
 
-test.only(('@new page handel'), async ({browser})=>{
+test(('@new page handel'), async ({browser})=>{
     const context = await browser.newContext();
     const page = await context.newPage();
 

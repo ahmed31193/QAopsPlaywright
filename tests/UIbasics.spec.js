@@ -17,7 +17,7 @@ test('context browser program code', async ({browser})=>
 
 });
 
-test.only('page program code', async({page})=>{
+test('page program code', async({page})=>{
 
     await page.goto("https://auto-robin-qtr.santechture.com/ROBIN/faces/home.xhtml");
     //Define Locators
@@ -50,7 +50,7 @@ test.only('page program code', async({page})=>{
     console.log(await page.locator('[class="card  overview-box-1 orange"] a').allTextContents());
 })
 
-test.only('Home page selector', async({page})=>{
+test('Home page selector', async({page})=>{
     await page.goto("https://auto-robin-qtr.santechture.com/ROBIN/faces/home.xhtml");
     //Define Locators
     const userfield = page.locator('#username');
