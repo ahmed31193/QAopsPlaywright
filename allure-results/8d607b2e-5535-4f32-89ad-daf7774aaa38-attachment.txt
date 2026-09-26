@@ -1,0 +1,33 @@
+Sign in to QATAR
+
+                                        Invalid username or password.
+                                
+
+                                            
+                                                Patient Access 
+                                            
+
+                                            
+                                                Charge Review 
+                                            
+[
+  '\n' +
+    '                                            \n' +
+    '                                                Patient Access \n' +
+    '                                            ',
+  '\n' +
+    '                                            \n' +
+    '                                                Charge Review \n' +
+    '                                            ',
+  '\n' +
+    '                                        \n' +
+    '                                            Denial Management                                     ',
+  '\n' +
+    '                                        \n' +
+    '                                            Authorization Requests \n' +
+    '                                        ',
+  '\n' +
+    '                                        \n' +
+    '                                            Users \n' +
+    '                                        '
+]

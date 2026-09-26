@@ -1,0 +1,28 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Demo": "npx playwright test tests/UIbasics.spec.js",
+    "Regression": "npx playwright test tests/ClientappPOM.spec.js  --config playwright.config1.js --project=Chrome",
+    "CucumberRegression": "npx cucumber-js features/Ecommerce.feature --parallel 3 --exit --format html:cucumber_report.html --retry 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.3",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.6.2",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.12.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "exceljs": "^4.4.0"
+  }
+}
