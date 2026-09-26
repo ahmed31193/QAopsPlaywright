@@ -35,7 +35,7 @@ const config =({
   ],
   //name : 'Microsoft Edge',
   use: {
-      actionTimeout: 10 * 1000,
+      actionTimeout: 15 * 1000,
       navigationTimeout: 30 * 1000,
       // ...devices['Desktop Edge'],
       // channel: 'msedge', 
@@ -49,3 +49,4 @@ const config =({
 
 });
 module.exports = config
+// testing branch workflow
